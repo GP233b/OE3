@@ -1,8 +1,9 @@
 import numpy as np
 import sys
 sys.path.append('../')
-
 from config import X_MIN, X_MAX
+
+
 def gaussian_mutation(individual, rate):
     if np.random.rand() < rate:
         idx = np.random.randint(len(individual))

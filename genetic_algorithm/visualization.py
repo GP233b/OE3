@@ -1,4 +1,7 @@
 from matplotlib import pyplot as plt
+import numpy as np
+
+from genetic_algorithm.evaluation import schwefel
 
 def plot_results(history, filename="results.jpg"):
     plt.figure(figsize=(8, 6))
@@ -8,5 +11,33 @@ def plot_results(history, filename="results.jpg"):
     plt.title("Genetic Algorithm Optimization")
     plt.legend()
     plt.grid(True)
+    plt.savefig(filename, format="jpg")
+    plt.close()
+
+def plot_3d_result(best_solution, filename="best_solution_3d.jpg"):
+    x, y = best_solution
+    z = schwefel(best_solution)
+    
+    fig = plt.figure(figsize=(8, 6))
+    ax = fig.add_subplot(111, projection='3d')
+
+    # Tworzenie siatki punktów w zakresie funkcji Schwefla
+    X = np.linspace(-500, 500, 100)
+    Y = np.linspace(-500, 500, 100)
+    X, Y = np.meshgrid(X, Y)
+    Z = schwefel([X, Y])
+
+    # Rysowanie powierzchni
+    ax.plot_surface(X, Y, Z, cmap='viridis', alpha=0.7)
+
+    # Najlepsze rozwiązanie
+    ax.scatter(x, y, z, color='red', s=100, label='Best Solution')
+
+    ax.set_title("Best Solution on Schwefel Function")
+    ax.set_xlabel("X")
+    ax.set_ylabel("Y")
+    ax.set_zlabel("Z")
+    ax.legend()
+
     plt.savefig(filename, format="jpg")
     plt.close()

@@ -21,16 +21,13 @@ def plot_3d_result(best_solution, filename="best_solution_3d.jpg"):
     fig = plt.figure(figsize=(8, 6))
     ax = fig.add_subplot(111, projection='3d')
 
-    # Tworzenie siatki punktów w zakresie funkcji Schwefla
     X = np.linspace(-500, 500, 100)
     Y = np.linspace(-500, 500, 100)
     X, Y = np.meshgrid(X, Y)
     Z = schwefel([X, Y])
 
-    # Rysowanie powierzchni
     ax.plot_surface(X, Y, Z, cmap='viridis', alpha=0.7)
 
-    # Najlepsze rozwiązanie
     ax.scatter(x, y, z, color='red', s=100, label='Best Solution')
 
     ax.set_title("Best Solution on Schwefel Function")
@@ -38,6 +35,27 @@ def plot_3d_result(best_solution, filename="best_solution_3d.jpg"):
     ax.set_ylabel("Y")
     ax.set_zlabel("Z")
     ax.legend()
+
+    plt.savefig(filename, format="jpg")
+    plt.close()
+
+def plot_heatmap(best_solution, filename="heatmap.jpg"):
+    x, y = best_solution
+    
+    X = np.linspace(-500, 500, 200)
+    Y = np.linspace(-500, 500, 200)
+    X, Y = np.meshgrid(X, Y)
+    Z = schwefel([X, Y])
+
+    plt.figure(figsize=(8, 6))
+    plt.contourf(X, Y, Z, levels=50, cmap='viridis')
+    plt.colorbar(label="Schwefel Value")
+
+    plt.scatter(x, y, color='red', s=100, label='Best Solution')
+    plt.title("Heatmap of Schwefel Function with Best Solution")
+    plt.xlabel("X")
+    plt.ylabel("Y")
+    plt.legend()
 
     plt.savefig(filename, format="jpg")
     plt.close()

@@ -6,7 +6,7 @@ from genetic_algorithm.crossover import one_point_crossover
 from genetic_algorithm.evaluation import schwefel
 from genetic_algorithm.mutation import gaussian_mutation
 from genetic_algorithm.selection import tournament_selection
-from genetic_algorithm.visualization import plot_3d_result, plot_results
+from genetic_algorithm.visualization import plot_3d_result, plot_heatmap, plot_results
 
 
 def genetic_algorithm():
@@ -25,4 +25,5 @@ def genetic_algorithm():
     best_solution = pop[np.argmin([schwefel(ind) for ind in pop])]
     plot_results(history) 
     plot_3d_result(best_solution) 
+    plot_heatmap(best_solution)
     return best_solution

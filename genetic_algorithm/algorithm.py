@@ -27,8 +27,7 @@ def genetic_algorithm(mutation_function, crossover_function, selection_function,
         best_individual_idx = np.argmin(scores)
         best_individual = pop[best_individual_idx]
 
-        # Zapisz wykres co 50 iteracji
-        if iteration % 50 == 0:
+        if iteration % 50 == 1:
             save_iteration_graph(history, best_individual, iteration)
         
         new_pop = [best_individual]
@@ -42,7 +41,7 @@ def genetic_algorithm(mutation_function, crossover_function, selection_function,
     
     best_solution = pop[np.argmin([schwefel(ind) for ind in pop])]
     
-    end_time = time.time()  # Zakończenie pomiaru czasu
+    end_time = time.time()
     elapsed_time = end_time - start_time
     print(f"Czas wykonania algorytmu: {elapsed_time:.2f} sekundy")
     

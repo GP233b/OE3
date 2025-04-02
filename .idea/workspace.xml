@@ -5,20 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="09b3685f-6b48-4497-b0f9-5b189181d436" name="Changes" comment="Update after merge">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/iteration_graphs/best_solution_3d_0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/iteration_graphs/best_solution_3d_100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/iteration_graphs/best_solution_3d_150.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/iteration_graphs/best_solution_3d_50.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/iteration_graphs/heatmap_0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/iteration_graphs/heatmap_100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/iteration_graphs/heatmap_150.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/iteration_graphs/heatmap_50.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/iteration_graphs/results_0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/iteration_graphs/results_100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/iteration_graphs/results_150.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/iteration_graphs/results_50.png" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/OE-ZTPI.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/best_solution_3d.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heatmap.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iteration_graphs/best_solution_3d_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iteration_graphs/best_solution_3d_101.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iteration_graphs/best_solution_3d_151.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iteration_graphs/best_solution_3d_51.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iteration_graphs/heatmap_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iteration_graphs/heatmap_101.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iteration_graphs/heatmap_151.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iteration_graphs/heatmap_51.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iteration_graphs/results_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iteration_graphs/results_101.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iteration_graphs/results_151.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iteration_graphs/results_51.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/results.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/genetic_algorithm/algorithm.py" beforeDir="false" afterPath="$PROJECT_DIR$/genetic_algorithm/algorithm.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/genetic_algorithm/save_iteration_graph.py" beforeDir="false" afterPath="$PROJECT_DIR$/genetic_algorithm/save_iteration_graph.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/genetic_algorithm/visualization.py" beforeDir="false" afterPath="$PROJECT_DIR$/genetic_algorithm/visualization.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,18 +35,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "JakubPedryc16"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;JakubPedryc16&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/GP233b/OE-ZTPI.git",
-    "accountId": "c55defee-7de5-4b61-b83d-13261ab0adb4"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/GP233b/OE-ZTPI.git&quot;,
+    &quot;accountId&quot;: &quot;c55defee-7de5-4b61-b83d-13261ab0adb4&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -56,7 +63,7 @@
     "Python.main.executor": "Run",
     "Python.visualization.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "Merging main",
     "last_opened_file_path": "C:/Users/User/Desktop/OEO/OE-ZTPI",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",

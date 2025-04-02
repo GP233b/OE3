@@ -2,17 +2,17 @@ import tkinter as tk
 from tkinter import ttk
 from genetic_algorithm.algorithm import genetic_algorithm
 from genetic_algorithm.evaluation import schwefel
-from config import POP_SIZE, GENS, MUT_RATE, CROSS_RATE, DIM, X_MIN, X_MAX
+from config import POP_SIZE, GENS, MUT_RATE, CROSS_RATE, DIM, X_MIN, X_MAX ,ITERATION
 
-def run_genetic_algorithm(mutation_function, crossover_function, selection_function, mutation_rate, elitism_rate, pop_size, gens, x_min, x_max, dim):
-    best_solution = genetic_algorithm(mutation_function, crossover_function, selection_function, mutation_rate, elitism_rate, pop_size, gens, x_min, x_max, dim)
+def run_genetic_algorithm(mutation_function, crossover_function, selection_function, mutation_rate, elitism_rate, pop_size, gens, x_min, x_max, dim, iteration):
+    best_solution = genetic_algorithm(mutation_function, crossover_function, selection_function, mutation_rate, elitism_rate, pop_size, gens, x_min, x_max, dim, iteration)
     print("Best solution:", best_solution)
     print("Score:", schwefel(best_solution))
 
 def create_gui():
     root = tk.Tk()
     root.title("Genetic Algorithm Configuration")
-    root.geometry("450x500")
+    root.geometry("450x550")
     root.resizable(False, False)
     
     style = ttk.Style(root)
@@ -25,7 +25,6 @@ def create_gui():
     container = ttk.Frame(root, padding="20 20 20 20")
     container.grid(row=0, column=0, sticky=(tk.N, tk.W, tk.E, tk.S))
     
-    # Row counter
     r = 0
 
     ttk.Label(container, text="Select Mutation Function:").grid(row=r, column=0, sticky=tk.W, pady=5)
@@ -90,6 +89,12 @@ def create_gui():
     dim_entry.grid(row=r, column=1, pady=5, sticky=tk.EW)
     dim_entry.insert(0, str(DIM))
     r += 1
+    
+    ttk.Label(container, text="Iteration (ITERATION):").grid(row=r, column=0, sticky=tk.W, pady=5)
+    iteration_entry = ttk.Entry(container)
+    iteration_entry.grid(row=r, column=1, pady=5, sticky=tk.EW)
+    iteration_entry.insert(0, str(ITERATION))
+    r += 1
 
     def on_run_button_click():
         mutation_function = mutation_combobox.get()
@@ -102,8 +107,9 @@ def create_gui():
         x_min = float(x_min_entry.get())
         x_max = float(x_max_entry.get())
         dim = int(dim_entry.get())
+        iteration = int(iteration_entry.get())
 
-        run_genetic_algorithm(mutation_function, crossover_function, selection_function, mutation_rate, elitism_rate, pop_size, gens, x_min, x_max, dim)
+        run_genetic_algorithm(mutation_function, crossover_function, selection_function, mutation_rate, elitism_rate, pop_size, gens, x_min, x_max, dim, iteration)
 
     run_button = ttk.Button(container, text="Run Genetic Algorithm", command=on_run_button_click)
     run_button.grid(row=r, column=0, columnspan=2, pady=20)

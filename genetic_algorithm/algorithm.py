@@ -28,7 +28,7 @@ def genetic_algorithm(mutation_function, crossover_function, selection_function,
         best_individual = pop[best_individual_idx]
 
         # Zapisz wykres co 50 iteracji
-        if iteration % 50 == 0:
+        if iteration % ITERATION == 0:
             save_iteration_graph(history, best_individual, iteration)
         
         new_pop = [best_individual]

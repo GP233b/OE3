@@ -4,8 +4,8 @@ from genetic_algorithm.algorithm import genetic_algorithm
 from genetic_algorithm.evaluation import schwefel
 from config import POP_SIZE, GENS, MUT_RATE, CROSS_RATE, DIM, X_MIN, X_MAX ,ITERATION
 
-def run_genetic_algorithm(mutation_function, crossover_function, selection_function, mutation_rate, elitism_rate, pop_size, gens, x_min, x_max, dim, iteration):
-    best_solution = genetic_algorithm(mutation_function, crossover_function, selection_function, mutation_rate, elitism_rate, pop_size, gens, x_min, x_max, dim, iteration)
+def run_genetic_algorithm(mutation_function, crossover_function, selection_function, mutation_rate, elitism_rate, pop_size, gens, x_min, x_max, dim):
+    best_solution = genetic_algorithm(mutation_function, crossover_function, selection_function, mutation_rate, elitism_rate, pop_size, gens, x_min, x_max, dim)
     print("Best solution:", best_solution)
     print("Score:", schwefel(best_solution))
 
@@ -109,7 +109,7 @@ def create_gui():
         dim = int(dim_entry.get())
         iteration = int(iteration_entry.get())
 
-        run_genetic_algorithm(mutation_function, crossover_function, selection_function, mutation_rate, elitism_rate, pop_size, gens, x_min, x_max, dim, iteration)
+        run_genetic_algorithm(mutation_function, crossover_function, selection_function, mutation_rate, elitism_rate, pop_size, gens, x_min, x_max, dim)
 
     run_button = ttk.Button(container, text="Run Genetic Algorithm", command=on_run_button_click)
     run_button.grid(row=r, column=0, columnspan=2, pady=20)

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="09b3685f-6b48-4497-b0f9-5b189181d436" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/best_solution_3d.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/best_solution_3d.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/genetic_algorithm/gui.py" beforeDir="false" afterPath="$PROJECT_DIR$/genetic_algorithm/gui.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heatmap.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/heatmap.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iteration_graphs/best_solution_3d_0.png" beforeDir="false" afterPath="$PROJECT_DIR$/iteration_graphs/best_solution_3d_0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iteration_graphs/best_solution_3d_100.png" beforeDir="false" afterPath="$PROJECT_DIR$/iteration_graphs/best_solution_3d_100.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iteration_graphs/best_solution_3d_150.png" beforeDir="false" afterPath="$PROJECT_DIR$/iteration_graphs/best_solution_3d_150.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iteration_graphs/best_solution_3d_50.png" beforeDir="false" afterPath="$PROJECT_DIR$/iteration_graphs/best_solution_3d_50.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iteration_graphs/heatmap_0.png" beforeDir="false" afterPath="$PROJECT_DIR$/iteration_graphs/heatmap_0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iteration_graphs/heatmap_150.png" beforeDir="false" afterPath="$PROJECT_DIR$/iteration_graphs/heatmap_150.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iteration_graphs/results_0.png" beforeDir="false" afterPath="$PROJECT_DIR$/iteration_graphs/results_0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iteration_graphs/results_100.png" beforeDir="false" afterPath="$PROJECT_DIR$/iteration_graphs/results_100.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iteration_graphs/results_150.png" beforeDir="false" afterPath="$PROJECT_DIR$/iteration_graphs/results_150.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iteration_graphs/results_50.png" beforeDir="false" afterPath="$PROJECT_DIR$/iteration_graphs/results_50.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/results.jpg" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2v5REGnPcMvEL8yF3e5jG9N51Ve" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.Main.executor": "Run",
+    "Python.algorithm.executor": "Run",
+    "Python.gui.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.visualization.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/User/Desktop/OEO/OE-ZTPI",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.keymap",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="Main" type="PythonConfigurationType" factoryName="Python">
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.12 (pythonProject)" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="main" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-PY-241.18034.82" />
+        <option value="bundled-python-sdk-975db3bf15a3-2767605e8bc2-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-241.18034.82" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="09b3685f-6b48-4497-b0f9-5b189181d436" name="Changes" comment="" />
+      <created>1743432834778</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1743432834778</updated>
+      <workItem from="1743432836003" duration="2019000" />
+      <workItem from="1743609746965" duration="2563000" />
+      <workItem from="1743612339112" duration="530000" />
+      <workItem from="1743612875675" duration="337000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/OE_ZTPI$algorithm.coverage" NAME="algorithm Coverage Results" MODIFIED="1743611164536" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/genetic_algorithm" />
+    <SUITE FILE_PATH="coverage/OE_ZTPI$visualization.coverage" NAME="visualization Coverage Results" MODIFIED="1743611685579" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/genetic_algorithm" />
+    <SUITE FILE_PATH="coverage/OE_ZTPI$gui.coverage" NAME="gui Coverage Results" MODIFIED="1743613137384" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/genetic_algorithm" />
+    <SUITE FILE_PATH="coverage/OE_ZTPI$main.coverage" NAME="main Coverage Results" MODIFIED="1743613141273" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>

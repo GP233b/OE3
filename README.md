@@ -1,5 +1,3 @@
 # OE-ZTPI
- Klasyczny algorytm generyczny
+ Klasyczny algorytm generyczny PROJEKT 2
 
-
-LIGA?
